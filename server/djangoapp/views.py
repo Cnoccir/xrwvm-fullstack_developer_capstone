@@ -122,7 +122,7 @@ def add_review(request):
     if request.method == "POST":
         data = json.loads(request.body)
         try:
-            response = post_review(data)
+            post_review(data)
             return JsonResponse({"status": 200, "message": "Review posted successfully"})
         except Exception as e:
             return JsonResponse({"status": 401, "message": f"Error in posting review: {e}"})
