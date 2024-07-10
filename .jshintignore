@@ -1,0 +1,6 @@
+node_modules/
+server/database/
+server/djangoapp/
+server/djangoproj/
+server/djangoenv/
+server/frontend/build/
