@@ -1,10 +1,10 @@
 /*jshint esversion: 8 */
-import LoginPanel from "./components/Login/Login";
+import LoginPanel from "./components/Login/Login.jsx";
 import { Routes, Route } from "react-router-dom";
-import Register from "./components/Register/Register";
-import Dealers from './components/Dealers/Dealers';
-import Dealer from "./components/Dealers/Dealer";
-import PostReview from './components/Dealers/PostReview';
+import Register from "./components/Register/Register.jsx";
+import Dealers from './components/Dealers/Dealers.jsx';
+import Dealer from "./components/Dealers/Dealer.jsx";
+import PostReview from './components/Dealers/PostReview.jsx';
 
 function App() {
   return (
