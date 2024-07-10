@@ -2,6 +2,7 @@
   "esversion": 8,
   "node": true,
   "browser": true,
+  "asi": true,
   "globals": {
     "module": true,
     "require": true,
