@@ -4,3 +4,4 @@ server/djangoapp/
 server/djangoproj/
 server/djangoenv/
 server/frontend/build/
+server/node_modules/
